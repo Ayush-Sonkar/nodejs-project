@@ -1,4 +1,4 @@
-# Project Name
+# hodlinfo - node js project
 
 Short description or overview of the project.
 
