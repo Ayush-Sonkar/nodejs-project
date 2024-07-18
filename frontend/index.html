@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hodlinfo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-900 text-white font-poppins">
+  <div class="container mx-auto p-4">
+    <header class="flex justify-between items-center py-4 border-b border-gray-700">
+      <h1 class="text-3xl font-bold text-green-400">Hodlinfo</h1>
+      <a href="https://telegram.org" target="_blank" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+        Connect on Telegram
+      </a>
+    </header>
+    <table class="table-auto w-full mt-6">
+      <thead>
+        <tr class="bg-gray-800">
+          <th class="px-4 py-2">Coin</th>
+          <th class="px-4 py-2">Name</th>
+          <th class="px-4 py-2">Last</th>
+          <th class="px-4 py-2">Buy</th>
+          <th class="px-4 py-2">Sell</th>
+          <th class="px-4 py-2">Volume</th>
+          <th class="px-4 py-2">Base Unit</th>
+        </tr>
+      </thead>
+      <tbody id="ticker-table">
+        <!-- Data will be populated here by JavaScript -->
+      </tbody>
+    </table>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
